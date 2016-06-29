@@ -16,6 +16,7 @@
 		C300B8B01D2444FE00C23CFB /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300B8AE1D2444FE00C23CFB /* Recipe+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
 		C300B8B11D2444FE00C23CFB /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300B8AF1D2444FE00C23CFB /* Recipe.swift */; settings = {ASSET_TAGS = (); }; };
 		C300B8B31D244D2600C23CFB /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300B8B21D244D2600C23CFB /* RecipeCell.swift */; settings = {ASSET_TAGS = (); }; };
+		C300B8B51D245BD000C23CFB /* CreateRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300B8B41D245BD000C23CFB /* CreateRecipeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C300B8AE1D2444FE00C23CFB /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "../Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C300B8AF1D2444FE00C23CFB /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recipe.swift; path = ../Recipe.swift; sourceTree = "<group>"; };
 		C300B8B21D244D2600C23CFB /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		C300B8B41D245BD000C23CFB /* CreateRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRecipeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				C300B8981D2425C100C23CFB /* ViewController.swift */,
+				C300B8B41D245BD000C23CFB /* CreateRecipeViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				C300B89F1D2425C100C23CFB /* recipes.xcdatamodeld in Sources */,
 				C300B8B31D244D2600C23CFB /* RecipeCell.swift in Sources */,
 				C300B8971D2425C100C23CFB /* AppDelegate.swift in Sources */,
+				C300B8B51D245BD000C23CFB /* CreateRecipeViewController.swift in Sources */,
 				C300B8B11D2444FE00C23CFB /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
